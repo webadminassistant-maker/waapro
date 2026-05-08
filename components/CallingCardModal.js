@@ -46,11 +46,12 @@ export default function CallingCardModal() {
 
             {/* Headshot overlapping header */}
             <div className="flex justify-center -mt-10 mb-4">
-              <div className="w-20 h-20 rounded-full border-4 border-ivory shadow-soft bg-warm-gray flex items-center justify-center overflow-hidden">
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-                  <circle cx="24" cy="18" r="10" fill="#4A6741" opacity="0.3" />
-                  <path d="M6 42 Q24 30 42 42" stroke="#4A6741" strokeWidth="2" fill="none" opacity="0.3" />
-                </svg>
+              <div className="w-20 h-20 rounded-full border-4 border-ivory shadow-soft overflow-hidden">
+                <img
+                  src="/headshot.jpg"
+                  alt="Chadlee Stephens"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 

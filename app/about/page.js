@@ -29,20 +29,14 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
             {/* Photo placeholder */}
             <div className="flex flex-col items-center md:items-start">
-              <div
-                className="w-52 h-52 rounded-full bg-warm-gray border-4 border-sage/30 flex items-center justify-center shadow-soft-lg mb-5 relative overflow-hidden"
-                role="img"
-                aria-label="Owner photo — Chadlee Stephens"
-              >
-                <div className="text-center text-charcoal-light">
-                  <svg width="72" height="72" viewBox="0 0 72 72" fill="none" aria-hidden="true">
-                    <circle cx="36" cy="28" r="16" fill="#4A6741" opacity="0.25" />
-                    <path d="M10 60 Q36 44 62 60" stroke="#4A6741" strokeWidth="3" fill="none" opacity="0.25" />
-                  </svg>
-                  <p className="font-dancing text-gold/70 text-sm mt-1">Photo Coming Soon</p>
-                </div>
+              <div className="w-52 h-52 rounded-full border-4 border-sage/30 shadow-soft-lg mb-5 relative overflow-hidden">
+                <img
+                  src="/headshot.jpg"
+                  alt="Chadlee Stephens — The Web Administrator"
+                  className="w-full h-full object-cover"
+                />
                 {/* Decorative ring */}
-                <div className="absolute inset-0 rounded-full border-2 border-gold/20" />
+                <div className="absolute inset-0 rounded-full border-2 border-gold/20 pointer-events-none" />
               </div>
               {/* Pull-quote callout */}
               <blockquote className="bg-[#EEF3EC] border-l-4 border-gold rounded-r-2xl p-5 mt-2 max-w-xs">
