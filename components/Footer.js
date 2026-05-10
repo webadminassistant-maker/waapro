@@ -82,8 +82,10 @@ export default function Footer() {
 
             <div className="flex gap-3">
               <a
-                href="#"
-                aria-label="Facebook page (link coming soon)"
+                href="https://www.facebook.com/profile.php?id=61589123417596"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our Facebook page"
                 className="p-2 rounded-full border border-ivory/20 text-ivory/50 hover:text-gold hover:border-gold transition-colors"
               >
                 <Facebook size={15} />
